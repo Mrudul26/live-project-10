@@ -1,0 +1,116 @@
+body{
+    background-image: url("https://interior-design-landing-page-project-10.netlify.app/image/interior-bg.webp");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+.logo{
+    position: relative;
+    left:-480px;
+}
+
+hr{
+    color: #FFF;
+    width: 645px;
+    position: relative;
+    right: -320px;
+}
+  ul>li{
+    display: inline;
+    list-style-type: none;
+    padding: 0px 10px;
+  }
+
+  a, p.callus-content{
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  h1{
+    color: #FFF;
+    font-size: 80px;
+    position: relative;
+    top: 90px;
+  }
+.hero-btn{
+    background: none;
+    border-color: #FFF;
+    border-radius: 26px;
+    padding: 15px 35px;
+    color: #FFF;
+    position: relative;
+    top: 90px;
+    font-size: 17px;
+}
+.contact{
+    display: flex;
+    position: relative;
+    left: -115px;
+}
+
+.hero-section{
+margin: 100px 100px;
+}
+
+p{
+    color: #FFF;
+}
+
+.icon-1{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+.icon-2 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+#icons{
+    color: #ffffff;
+    background-color: #dadada3b;
+    padding: 0px 20px 15px 20px;
+    width: 220px;
+    height: 173px;
+}
+.line-1 {
+    position: absolute;
+    top: 49%;
+    right: 375px;
+    transform: rotate(90deg)
+}
+.line-2 {
+    position: absolute;
+    top: 79%;
+    right: 425px;
+}
+.dot-1 {
+    position: absolute;
+    top: 53%;
+    right: 397px;
+}
+.dot-2 {
+    position: absolute;
+    top: 78%;
+    right: 410px;
+}
+
+.dots {
+    background-color: #ffffff;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.lines {
+    background-color: #ffffff;
+    width: 60px;
+    height: 1px;
+}
