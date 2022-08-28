@@ -114,3 +114,40 @@ p{
     width: 60px;
     height: 1px;
 }
+
+/* Mobile responsiveness */
+@media (max-width:720px) {
+
+    .logo{
+        position: relative;
+        left: 20px;
+        width: 60px;
+    }
+
+    .hero-section{
+        position: relative;
+        left: -30px;
+    }
+
+
+    .nav-items{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .hero-heading{
+        font-size: 60px;
+        width: 450px;
+
+    }
+
+    .hero-btn{
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+    div#icons, .lines, .dots, hr, .contact{
+display: none;
+    }
+}
